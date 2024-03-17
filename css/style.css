@@ -1,0 +1,38 @@
+#logo {
+    max-width: 3.5rem;
+}
+
+header button {
+    border: 1px solid lightgrey !important;
+}
+
+main {
+    height: calc(100vh - 88px - 56px);
+    background-color: #7fffd4;
+    overflow-y: auto;
+}
+
+.ms-grid-ctn {
+    height: 100%;
+}
+
+.ms-grid {
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+}
+
+.ms-cell {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    border: 1px solid lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+footer p {
+    margin: 0 1rem;
+}
