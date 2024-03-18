@@ -48,6 +48,7 @@ main {
     align-items: center;
     flex-grow: 0;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 .lightblue {

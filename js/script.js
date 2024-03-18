@@ -23,10 +23,9 @@ playButton.addEventListener('click', function () {
         const thisSquare = allSquares[i];
         thisSquare.addEventListener('click', function () {
             this.classList.toggle('lightblue');
-            console.log(this.innerHTML);
+            console.log(this.textContent);
         });
     }
-    
 });
 
 // Functions
